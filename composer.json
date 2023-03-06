@@ -1,0 +1,5 @@
+{
+    "require": {
+        "kuleshov/check-correct-parenthesis": "1.0.0"
+    }
+}

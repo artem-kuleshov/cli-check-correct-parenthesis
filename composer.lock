@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "083679cb2df9e8482d5525d69a7c3109",
+    "packages": [
+        {
+            "name": "kuleshov/check-correct-parenthesis",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artem-kuleshov/check-correct-parenthesis.git",
+                "reference": "7a99e5fab51887525ab124a24873330c4e886249"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artem-kuleshov/check-correct-parenthesis/zipball/7a99e5fab51887525ab124a24873330c4e886249",
+                "reference": "7a99e5fab51887525ab124a24873330c4e886249",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=9.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kuleshov\\CheckCorrectParenthesis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kuleshov Artem",
+                    "email": "artemkul57@mail.ru"
+                }
+            ],
+            "description": "Пакет, который позволяет проверить строку на корректность закрытах и открытах скобок",
+            "support": {
+                "issues": "https://github.com/artem-kuleshov/check-correct-parenthesis/issues",
+                "source": "https://github.com/artem-kuleshov/check-correct-parenthesis/tree/1.0.0"
+            },
+            "time": "2023-03-06T11:45:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
